@@ -1,2 +1,2 @@
 # dentalinn
-Este repositorio contiene la landing que realicé para dentalinn
+En este repositorio migraré la landing de dental inn a react
