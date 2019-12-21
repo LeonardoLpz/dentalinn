@@ -1,0 +1,215 @@
+body{
+    display: grid;
+    grid-template-columns:100% ;
+    width: 100%;
+    min-width: 320px;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 0px;
+    font-family: Arial; 
+}
+#logos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+
+    grid-template-rows: 180px 40px;
+    padding-top: 30px;
+    grid-row-gap: 30px;
+    
+}
+#logos img{
+    grid-row: 1;
+    grid-column: 1/4;
+    height: 100%;
+    justify-self: center;
+    
+}
+#logos input{
+    border:0px;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    grid-row: 2;
+    cursor: pointer;
+    background-color: white;
+}
+#face{
+    justify-self: right;
+    background-image: url('../img/fblogo.png');
+    background-size: 100%;
+}
+#instagram{
+    justify-self: center;
+    background-image: url('../img/instaLogo.png');
+    background-size: 100%;
+}
+#youtube{
+    justify-self: left;
+    background-image: url('../img/logoYoutube.png');
+    background-size: 100%;
+}
+
+
+
+#programaCita{
+    display: grid;
+    padding-top: 30px;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 70px 30px 1fr;
+    grid-column-gap: 10px;
+    justify-content: center;
+    grid-row-gap: 20px;
+    
+}
+
+#programaCita h1{
+    text-align: center;
+    grid-row: 1;
+    grid-column: 1/3;
+    margin: 0px;
+    font-size: 22px;
+}
+#programaCita input{
+    grid-row: 2;
+    border: 0px;
+    height: 35px;
+    width: 130px;
+    border-radius: 10px;
+    background-color: #1B71B9;
+    color: white;
+    cursor: pointer;
+    
+}
+#llama{
+    grid-column: 1;
+    background-image: url('../img/llamarIco.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position-x: 25px;
+    background-position-y: 5px;
+    padding-left: 35px;
+    justify-self:right;
+}
+#WhatsApp{
+    grid-column: 2;
+    background-image: url('../img/whatsIco.png');
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position-x: 20px;
+    background-position-y: 5px;
+    padding-left: 45px;
+    justify-self: left;
+}
+#programaCita video{
+    grid-column: 1/3;
+    width: 100%;
+}
+
+
+
+
+#especialidades{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 15px;
+    column-gap: 20px;
+    padding: 30px 30px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    color: #1B71B9;
+    line-height: 1;
+}
+#especialidades h1{
+    grid-column: 1/3;
+    grid-row: 1;
+    text-align: center;
+}
+#especialidades img{
+    height: 50px;
+    margin-bottom: 15px;
+    
+}
+#especialidades strong{
+    font-size: 10px;
+    font-weight: normal;
+}
+#especialidades div:nth-of-type(1){
+    grid-row: 2;
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+}
+#especialidades div:nth-of-type(2){
+    grid-row: 2;
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+}
+#especialidades div:nth-of-type(3){
+    grid-row: 4;
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+}
+#especialidades div:nth-of-type(4){
+    grid-row: 4;
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+}
+#especialidades div:nth-of-type(5){
+    grid-row: 6;
+    grid-column: 1;
+    justify-self: center;
+    align-self: center;
+}
+#especialidades div:nth-of-type(6){
+    grid-row: 8;
+    grid-column: 1/3;
+    justify-self: center;
+    align-self: center;
+}
+#especialidades div:nth-of-type(7){
+    grid-row: 6;
+    grid-column: 2;
+    justify-self: center;
+    align-self: center;
+}
+#especialidades p{
+    margin: 0px;
+   
+}
+#especialidades p:nth-of-type(7){
+    grid-column: 1/3;
+}
+#direccion{
+   
+
+    color: #555555;
+    text-align: left;
+    background-color: #32BAE0;
+    font-size: 12px;
+    height: 150px;
+    margin-top: 7px;
+    background-image: url('../img/facebook-placeholder-for-locate-places-on-maps.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center 30px;
+}
+#direccion h3{
+    color:white;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 12px;
+    padding: 0px 10px;
+  
+    
+}
+#map{
+    
+}
+#map iframe{
+    width: 100%;
+}
